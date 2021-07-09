@@ -1,0 +1,8 @@
+version : '3.3'
+
+services:
+        auth:
+                image: tuhinzaman/ffm-auth
+                ports:
+                        - "5001:8000"
+
